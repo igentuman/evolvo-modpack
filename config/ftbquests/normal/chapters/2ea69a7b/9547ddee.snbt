@@ -1,0 +1,16 @@
+{
+	x: -9.5d,
+	y: -5.0d,
+	dependencies: [
+		"93ee1fb0"
+	],
+	tasks: [{
+		uid: "036b8cdd",
+		type: "item",
+		items: [{
+			item: "notreepunching:pickaxe/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

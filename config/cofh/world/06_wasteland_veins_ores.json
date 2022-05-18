@@ -1,0 +1,174 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"uranium_thorium_vein": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "ic2:resource",
+					"metadata": 4,
+					"weight": 80
+				},
+				{
+					"name": "industrialupgrade:thorium_ore",
+					"weight": 20
+				},
+				]
+				"material": [
+					"minecraft:stone",
+					"minecraft:sand",
+					"nuclearcraft:wasteland_earth"
+				],
+				"cluster-size": 8000
+			},
+			"chunk-chance": 4,
+			"cluster-count": {
+				"min": 1,
+				"max": 4
+			},
+			"min-height": 5,
+			"max-height": 70,
+			"retrogen": "false",
+			"type": "large-vein",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"nuclearcraft:wasteland",
+							"nuclearcraft:nuclear_wasteland",
+							"srparasites:biome_parasite"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					4598
+				]
+			}
+		},
+		"curium_vein": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": 
+				{
+					"name": "industrialupgrade:blockradiationore",
+					"metadata": 2
+				},
+				"material": [
+					"minecraft:stone",
+					"minecraft:sand"
+				],
+				"cluster-size": 10
+			},
+			"chunk-chance": 10,
+			"cluster-count": 1,
+			"min-height": 50,
+			"max-height": 70,
+			"retrogen": "false",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"nuclearcraft:wasteland",
+							"nuclearcraft:nuclear_wasteland",
+							"srparasites:biome_parasite"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					4598
+				]
+			}
+		},
+		"americium_vein": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": 
+				{
+					"name": "industrialupgrade:blockradiationore"
+				},
+				"material": [
+					"minecraft:stone",
+					"minecraft:sand"
+				],
+				"cluster-size": 10
+			},
+			"chunk-chance": 10,
+			"cluster-count": 1,
+			"min-height": 50,
+			"max-height": 70,
+			"retrogen": "false",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"nuclearcraft:wasteland",
+							"nuclearcraft:nuclear_wasteland",
+							"srparasites:biome_parasite"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					4598
+				]
+			}
+		},
+		"neptunium_vein": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": 
+				{
+					"name": "industrialupgrade:blockradiationore",
+					"metadata": 1
+				},
+				"material": [
+					"minecraft:stone",
+					"minecraft:sand"
+				],
+				"cluster-size": 10
+			},
+			"chunk-chance": 10,
+			"cluster-count": 1,
+			"min-height": 50,
+			"max-height": 70,
+			"retrogen": "false",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"nuclearcraft:wasteland",
+							"nuclearcraft:nuclear_wasteland",
+							"srparasites:biome_parasite"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					4598
+				]
+			}
+		}
+	}
+}

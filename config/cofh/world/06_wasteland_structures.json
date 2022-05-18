@@ -1,0 +1,49 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		
+		"deadbush_nc": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": 
+				{
+					"name": "minecraft:deadbush"
+				},
+				"material": [
+					"nuclearcraft:wasteland_earth",
+					"minecraft:sand"
+				],
+				"cluster-size": 2
+			},
+			"chunk-chance": 10,
+			"cluster-count": 1,
+			"min-height": 60,
+			"max-height": 120,
+			"retrogen": "false",
+			"type":"surface",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"nuclearcraft:wasteland",
+							"nuclearcraft:nuclear_wasteland",
+							"srparasites:biome_parasite"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					4598,
+					0
+				]
+			}
+		},
+		
+		
+	}
+}

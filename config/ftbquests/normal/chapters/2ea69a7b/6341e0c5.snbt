@@ -1,0 +1,25 @@
+{
+	x: -6.5d,
+	y: -3.5d,
+	shape: "gear",
+	dependencies: [
+		"74cec2d4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5443064e",
+		type: "item",
+		items: [{
+			id: "notreepunching:ceramic_bucket",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

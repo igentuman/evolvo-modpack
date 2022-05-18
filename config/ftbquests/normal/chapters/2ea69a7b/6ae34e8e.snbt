@@ -1,0 +1,47 @@
+{
+	x: -3.5d,
+	y: -5.0d,
+	dependencies: [
+		"4522b1c4"
+	],
+	tasks: [{
+		uid: "64bab280",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a53c940",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9246e66f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "883fbda5",
+		type: "item",
+		items: [{
+			item: "minecraft:anvil"
+		}]
+	},
+	{
+		uid: "82b6e1b2",
+		type: "item",
+		items: [{
+			item: "minecraft:bucket"
+		}]
+	}]
+}

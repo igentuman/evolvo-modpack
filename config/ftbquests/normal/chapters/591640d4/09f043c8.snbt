@@ -1,0 +1,21 @@
+{
+	title: "New page",
+	icon: "minecraft:paper",
+	disable_toast: true,
+	x: -23.0d,
+	y: -12.0d,
+	shape: "octagon",
+	description: "Your first steps",
+	text: [
+		"Forget everything you know.",
+		"You know nothing.",
+		"You're not even a caveman.",
+		"Do your first tools to begin your path from empty place to godlike ingeneer."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "046937d1",
+		type: "checkmark",
+		title: "Lets do this..."
+	}]
+}

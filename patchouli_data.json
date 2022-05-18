@@ -1,0 +1,28 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "nuclearcraft:guide": {
+      "viewedEntries": [
+        "nuclearcraft:fission/general"
+      ],
+      "bookmarks": [],
+      "history": [
+        "nuclearcraft:fission/general"
+      ],
+      "completedManualQuests": []
+    },
+    "qmd:guide": {
+      "viewedEntries": [
+        "qmd:basics/worldgen",
+        "qmd:basics/elements_and_alloys"
+      ],
+      "bookmarks": [],
+      "history": [
+        "qmd:basics/elements_and_alloys",
+        "qmd:basics/worldgen"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

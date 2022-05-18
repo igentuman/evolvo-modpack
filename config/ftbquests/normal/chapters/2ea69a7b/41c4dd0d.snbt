@@ -1,0 +1,23 @@
+{
+	x: -11.5d,
+	y: -6.5d,
+	shape: "gear",
+	dependencies: [
+		"e34b79fa"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b00dfff4",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1f5d0859",
+		type: "item",
+		item: "minecraft:ender_pearl"
+	}]
+}

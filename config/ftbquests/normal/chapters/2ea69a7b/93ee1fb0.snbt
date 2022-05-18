@@ -1,0 +1,40 @@
+{
+	x: -11.0d,
+	y: -5.0d,
+	dependencies: [
+		"e34b79fa"
+	],
+	tasks: [{
+		uid: "294be97a",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	},
+	{
+		uid: "cd6c1b13",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}],
+		count: 2L
+	},
+	{
+		uid: "b03cbe2e",
+		type: "item",
+		items: [{
+			item: "notreepunching:shovel/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1bfd65e0",
+		type: "item",
+		items: [{
+			item: "minecraft:bed"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

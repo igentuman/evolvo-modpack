@@ -1,0 +1,254 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		
+		"minivein_copper": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "ic2:resource",
+					"metadata": 1
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 10
+			},
+			"chunk-chance": 10,
+			"cluster-count": 1,
+			"min-height": 50,
+			"max-height": 120,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"minivein_uranium": {
+			"enabled": "false",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "ic2:resource",
+					"metadata": 4
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 10
+			},
+			"chunk-chance": 40,
+			"cluster-count": 1,
+			"min-height": 10,
+			"max-height": 50,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"minivein_tin": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "ic2:resource",
+					"metadata": 3
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 10
+			},
+			"chunk-chance": 20,
+			"cluster-count": 1,
+			"min-height": 30,
+			"max-height": 90,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"minivein_silver": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "industrialupgrade:baseore",
+						"metadata": 11,
+						"weight": 80
+					},
+					{
+						"name": "ic2:resource",
+						"metadata": 2,
+						"weight": 20
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 10
+			},
+			"chunk-chance": 50,
+			"cluster-count": 1,
+			"min-height": 5,
+			"max-height": 30,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"minivein_lead": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "ic2:resource",
+						"metadata": 2,
+						"weight": 90
+					},
+     				{
+						"name": "industrialupgrade:baseore",
+						"metadata": 11,
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 10
+			},
+			"cluster-count": 1,
+			"chunk-chance": 20,
+			"min-height": 10,
+			"max-height": 85,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"minivein_nickel": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "industrialupgrade:baseore",
+					"metadata": 6
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 10
+			},
+			"chunk-chance": 20,
+			"cluster-count": 1,
+			"min-height": 15,
+			"max-height": 45,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"minivein_platinum": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "industrialupgrade:baseore",
+						"metadata": 7,
+						"weight": 40
+					},
+					{
+						"name": "industrialupgrade:baseore",
+						"metadata": 6,
+						"weight": 60
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"chunk-chance": 50,
+			"cluster-count": 1,
+			"min-height": 1,
+			"max-height": 12,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"minivein_aluminum": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "industrialupgrade:baseore",
+					"metadata": 1,
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"chunk-chance": 20,
+			"cluster-count": 1,
+			"min-height": 40,
+			"max-height": 95,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"minivein_iridium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "industrialupgrade:baseore",
+						"metadata": 14,
+						"weight": 40
+					},
+					{
+						"name": "industrialupgrade:baseore",
+						"metadata": 7,
+						"weight": 60
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"chunk-chance": 100,
+			"cluster-count": 1,
+			"min-height": 5,
+			"max-height": 25,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

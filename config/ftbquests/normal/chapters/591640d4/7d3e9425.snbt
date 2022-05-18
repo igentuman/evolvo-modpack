@@ -1,0 +1,32 @@
+{
+	title: "DO NOT FORGET",
+	icon: "galacticraftcore:prelaunch_checklist",
+	x: -23.0d,
+	y: -15.0d,
+	shape: "gear",
+	description: "3 basic things to improve QOL",
+	text: [
+		"1. Teleport to random place /rtp",
+		"",
+		"2. /sethome and you can teleport back to /home",
+		"",
+		"3. Claim your chunks to protect base"
+	],
+	size: 2.0d,
+	optional: true,
+	tasks: [{
+		uid: "fc69cea5",
+		type: "checkmark",
+		title: "/rtp"
+	},
+	{
+		uid: "0f6179e2",
+		type: "checkmark",
+		title: "/sethome"
+	},
+	{
+		uid: "9bea9f11",
+		type: "checkmark",
+		title: "Protect your base"
+	}]
+}

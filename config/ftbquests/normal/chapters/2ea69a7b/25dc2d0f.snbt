@@ -1,0 +1,69 @@
+{
+	x: -8.0d,
+	y: -6.5d,
+	shape: "gear",
+	dependencies: [
+		"2ab94a0b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "968d4935",
+		type: "item",
+		items: [{
+			item: "minecraft:cooked_porkchop"
+		}],
+		count: 16L
+	},
+	{
+		uid: "975122f1",
+		type: "item",
+		items: [{
+			item: "minecraft:cooked_chicken"
+		}],
+		count: 16L
+	},
+	{
+		uid: "af3d9a77",
+		type: "item",
+		items: [{
+			item: "minecraft:cooked_mutton"
+		}],
+		count: 16L
+	},
+	{
+		uid: "5d22633f",
+		type: "item",
+		items: [{
+			item: "minecraft:carrot"
+		}],
+		count: 16L
+	},
+	{
+		uid: "dcfea1fe",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9860b197",
+		type: "item",
+		item: "minecraft:iron_ore"
+	},
+	{
+		uid: "c85054e6",
+		type: "item",
+		item: "ic2:resource 1 1"
+	},
+	{
+		uid: "accc20c1",
+		type: "item",
+		item: "ic2:resource 1 2"
+	},
+	{
+		uid: "42cb4801",
+		type: "item",
+		item: "ic2:resource 1 3"
+	}]
+}

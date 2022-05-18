@@ -1,0 +1,49 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"diamonds_graphite": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "nuclearcraft:ingot_block",
+					"metadata": 8,
+					"weight": 20
+				},
+				{
+					"name": "minecraft:diamond_ore",
+					"weight": 80
+				},
+				]
+				"material": "minecraft:stone",
+				"cluster-size": 8000
+			},
+			"chunk-chance": 20,
+			"sparse": "true",
+			"cluster-count": 1,
+			"min-height": 5,
+			"max-height": 70,
+			"retrogen": "false",
+			"type": "large-vein",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"nuclearcraft:wasteland",
+							"nuclearcraft:nuclear_wasteland",
+							"srparasites:biome_parasite"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

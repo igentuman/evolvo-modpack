@@ -1,0 +1,45 @@
+{
+	x: -13.0d,
+	y: -5.0d,
+	shape: "octagon",
+	description: "I'm so weak",
+	text: [
+		"You can't puch trees, you know?",
+		"So get some sticks, flint shards.",
+		"Make a knife and cut some grass..."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "9ad985ab",
+		type: "item",
+		items: [{
+			item: "notreepunching:flint_shard"
+		}],
+		count: 2L
+	},
+	{
+		uid: "7f04ed02",
+		type: "item",
+		items: [{
+			item: "notreepunching:knife/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "51082cbc",
+		type: "item",
+		items: [{
+			item: "notreepunching:grass_fiber"
+		}]
+	},
+	{
+		uid: "a6e5501b",
+		type: "item",
+		items: [{
+			item: "notreepunching:axe/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

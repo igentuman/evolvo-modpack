@@ -1,0 +1,47 @@
+{
+	x: -8.0d,
+	y: -5.0d,
+	dependencies: [
+		"9547ddee",
+		"2ab94a0b",
+		"c4b50e42"
+	],
+	tasks: [{
+		uid: "48fcd656",
+		type: "item",
+		items: [{
+			item: "minecraft:brick"
+		}],
+		count: 16L
+	},
+	{
+		uid: "257d4c44",
+		type: "item",
+		items: [{
+			item: "notreepunching:rock/stone"
+		},
+		{
+			item: "notreepunching:rock/diorite"
+		},
+		{
+			item: "notreepunching:rock/andesite"
+		},
+		{
+			item: "notreepunching:rock/granite"
+		},
+		{
+			item: "notreepunching:rock/sandstone"
+		},
+		{
+			item: "notreepunching:rock/red_sandstone"
+		}],
+		count: 16L
+	},
+	{
+		uid: "86088a4a",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}

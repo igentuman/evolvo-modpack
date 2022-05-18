@@ -1,0 +1,16 @@
+{
+	x: -0.5d,
+	y: -5.0d,
+	shape: "square",
+	dependencies: [
+		"70be6fee"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "bcca3ebe",
+		type: "gamestage",
+		title: "Research Basic Ores",
+		icon: "researchtable:table",
+		stage: "Basic Ores"
+	}]
+}
