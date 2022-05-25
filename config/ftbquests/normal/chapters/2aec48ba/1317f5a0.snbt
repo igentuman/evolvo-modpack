@@ -1,0 +1,69 @@
+{
+	x: -0.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "3c196db8",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1"
+		}]
+	},
+	{
+		uid: "5ff5d24c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1 1 1"
+		}]
+	},
+	{
+		uid: "b7c9484c",
+		type: "item",
+		items: [{
+			item: "mech_crafting:sturdy_gearbox"
+		}]
+	},
+	{
+		uid: "4855ec4e",
+		type: "item",
+		items: [{
+			item: "mech_crafting:mechanical_crafter"
+		}]
+	},
+	{
+		uid: "1606739a",
+		type: "item",
+		items: [{
+			item: "mech_crafting:mechanical_bellows"
+		}]
+	},
+	{
+		uid: "a24ec48b",
+		type: "item",
+		items: [{
+			item: "mysticalmechanics:axle_iron"
+		}],
+		count: 8L
+	},
+	{
+		uid: "a2bd9847",
+		type: "item",
+		items: [{
+			item: "mysticalmechanics:gearbox_frame"
+		}]
+	},
+	{
+		uid: "8320097d",
+		type: "item",
+		items: [{
+			item: "mysticalmechanics:mergebox_frame"
+		}]
+	},
+	{
+		uid: "8d2b46f3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 24"
+		}],
+		count: 4L
+	}]
+}

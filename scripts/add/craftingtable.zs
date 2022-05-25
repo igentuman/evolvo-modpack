@@ -21,3 +21,20 @@ recipes.addShaped("galacticraftplanets_mars_machine_8", <galacticraftplanets:mar
 recipes.addShaped("galacticraftplanets_geothermal_generator", <galacticraftplanets:geothermal_generator>, [[<ore:compressedBronze>, <galacticraftplanets:atmospheric_valve>, <ore:compressedBronze>], [<galacticraftcore:battery>.withTag({electricity: 15000.0 as float}), <galacticraftcore:machine>, <galacticraftcore:battery>.withTag({electricity: 15000.0 as float})], [<ore:compressedBronze>, <galacticraftplanets:basic_item_venus:1>, <ore:compressedBronze>]]);
 recipes.addShaped("planetprogression_satellite_launcher", <planetprogression:satellite_launcher>, [[<galacticraftcore:basic_item:9>, <galacticraftcore:basic_item:19>, <galacticraftcore:basic_item:9>], [<galacticraftcore:basic_item:9>, <galacticraftcore:basic_item:14>, <galacticraftcore:basic_item:9>], [<galacticraftcore:basic_item:9>, <galacticraftcore:battery>.withTag({electricity: 15000.0 as float}), <galacticraftcore:basic_item:9>]]);
 recipes.addShaped("galacticraftplanets_basic_item_venus_5", <galacticraftplanets:basic_item_venus:5> * 3, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>], [<ore:waferSolarThin>, <ore:waferSolarThin>, <ore:waferSolarThin>], [<galacticraftcore:battery>.withTag({electricity: 15000.0 as float}), <galacticraftcore:battery>.withTag({electricity: 15000.0 as float}), <galacticraftcore:battery>.withTag({electricity: 15000.0 as float})]]);
+
+recipes.addShaped("immersiveengineering_stone_decoration_cokebrick_slab_back", <immersiveengineering:stone_decoration>, [[<immersiveengineering:stone_decoration_slab>], [<immersiveengineering:stone_decoration_slab>]]);
+recipes.addShaped("immersiveengineering_stone_decoration_cokebrick", <immersiveengineering:stone_decoration> * 3, [[<ic2:dust:1>, <ore:ingotBrick>, <ic2:dust:1>], [<ore:ingotBrick>, <ore:sandstone>, <ore:ingotBrick>], [<ic2:dust:1>, <ore:ingotBrick>, <ic2:dust:1>]]);
+
+recipes.addShaped("minecraft_iron_helmet", <minecraft:iron_helmet>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>]]);
+recipes.addShaped("minecraft_iron_boots", <minecraft:iron_boots>, [[null, null, null], [<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>]]);
+recipes.addShaped("minecraft_iron_leggings", <minecraft:iron_leggings>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>]]);
+recipes.addShaped("minecraft_iron_chestplate", <minecraft:iron_chestplate>, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped("mekanismgenerators_turbineblade", <mekanismgenerators:turbineblade>, [[<nuclearcraft:turbine_rotor_stator>, null, <nuclearcraft:turbine_rotor_stator>], [null, <mekanism:enrichedalloy>, null], [<nuclearcraft:turbine_rotor_stator>, null, <nuclearcraft:turbine_rotor_stator>]]);
+recipes.addShaped("mekanismgenerators_generator_7", <mekanismgenerators:generator:7>, [[null, <nuclearcraft:turbine_rotor_shaft>, null], [null, <nuclearcraft:turbine_rotor_shaft>, null], [null, <nuclearcraft:turbine_rotor_shaft>, null]]);
+
+recipes.addShaped("randomthings_diviningrod_universal", <randomthings:diviningrod:7>, [[<ore:ingotIron>, <ore:gemLapis>, <ore:ingotIron>], [<immersiveengineering:material>, <minecraft:slime_ball>, <immersiveengineering:material>], [<immersiveengineering:material>, null, <immersiveengineering:material>]]);
+
+//todo add
+//recipes.addShaped("ic2_831", <industrialupgrade:moremachine2>, [[null, null, null], [null, null, null], [null, null, null]]);
+//recipes.addShaped("ic2_835", <industrialupgrade:moremachine2:4>, [[null, null, null], [null, null, null], [null, null, null]]);

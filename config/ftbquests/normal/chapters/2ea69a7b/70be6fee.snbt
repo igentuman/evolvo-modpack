@@ -1,6 +1,10 @@
 {
+	title: "Iron Protection",
 	x: -2.0d,
 	y: -5.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"6ae34e8e"
 	],

@@ -2,6 +2,18 @@
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
 
+function removeRecipes(items as IItemStack[]) {
+	for item in items {
+		recipes.remove(item);
+	}
+}
+
+function removeRecipesByName(items as String[]) {
+	for item in items {
+		recipes.removeByRecipeName(item);
+	}
+}
+
 function removeAndHideItems(items as IItemStack[]) {
 	for item in items {
 		recipes.remove(item);
@@ -17,7 +29,133 @@ function removeAndHideAndFurnaceItems(items as IItemStack[]) {
 	}
 }
 
+removeRecipesByName([
+    "minecraft:iron_helmet",
+    "minecraft:iron_boots",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_leggings",
+    "mekanismgenerators:generator_7"
+]);
+
 removeAndHideItems([
+    <betterbuilderswands:wandunbreakable:14>,
+    <betterbuilderswands:wandunbreakable:13>,
+    <betterbuilderswands:wandunbreakable:12>,
+    <randomthings:floosign>,
+    <srparasites:infestremain>,
+    <srparasites:srpweb>,
+    <srparasites:itemtab>,
+    <srparasites:itemthrow>,
+    <randomthings:ingredient>,
+    <nuclearcraft:boots_boron_nitride>,
+    <nuclearcraft:legs_boron_nitride>,
+    <randomthings:bottleofair>,
+    <randomthings:imbue:3>,
+    <randomthings:imbue:2>,
+    <randomthings:imbue:1>,
+    <randomthings:imbue>,
+    <randomthings:magichood>,
+    <randomthings:beanstew>,
+    <randomthings:beans:2>,
+    <randomthings:beans:1>,
+    <randomthings:beans>,
+    <randomthings:summoningpendulum>,
+    <randomthings:biomecrystal>,
+    <randomthings:spectreenergyinjector>,
+    <planetprogression:telescope_fake_block>,
+    <planetprogression:block_multi>,
+    <planetprogression:advanced_launch_pad_full>,
+    <openblocks:sonic_glasses>,
+    <nuclearcraft:chest_boron_nitride>,
+    <nuclearcraft:helm_boron_nitride>,
+    <nuclearcraft:spaxelhoe_boron_nitride>,
+    <nuclearcraft:hoe_boron_nitride>,
+    <nuclearcraft:axe_boron_nitride>,
+    <nuclearcraft:shovel_boron_nitride>,
+    <nuclearcraft:pickaxe_boron_nitride>,
+    <randomthings:enderletter>,
+    <randomthings:rezstone>,
+    <nuclearcraft:sword_boron_nitride>,
+    <nuclearcraft:sword_boron>,
+    <nuclearcraft:pickaxe_boron>,
+    <nuclearcraft:shovel_boron>,
+    <nuclearcraft:axe_boron>,
+    <nuclearcraft:hoe_boron>,
+    <nuclearcraft:spaxelhoe_boron>,
+    <nuclearcraft:helm_boron>,
+    <nuclearcraft:chest_boron>,
+    <nuclearcraft:legs_boron>,
+    <nuclearcraft:boots_boron>,
+    <mekanismtools:glowstonepickaxe>,
+    <mekanismtools:glowstoneaxe>,
+    <mekanismtools:glowstoneshovel>,
+    <mekanismtools:glowstonehoe>,
+    <mekanismtools:glowstonesword>,
+    <mekanismtools:glowstonepaxel>,
+    <mekanismtools:glowstonehelmet>,
+    <mekanismtools:glowstonechestplate>,
+    <mekanismtools:glowstoneleggings>,
+    <mekanismtools:glowstoneboots>,
+    <mekanismtools:osmiumpickaxe>,
+    <mekanismtools:osmiumshovel>,
+    <mekanismtools:osmiumaxe>,
+    <mekanismtools:osmiumhoe>,
+    <mekanismtools:osmiumsword>,
+    <mekanismtools:osmiumpaxel>,
+    <mekanismtools:osmiumhelmet>,
+    <mekanismtools:osmiumchestplate>,
+    <mekanismtools:osmiumleggings>,
+    <mekanismtools:osmiumboots>,
+    <mekanismtools:lapislazulipickaxe>,
+    <mekanismtools:lapislazuliaxe>,
+    <mekanismtools:lapislazulishovel>,
+    <mekanismtools:lapislazulisword>,
+    <mekanismtools:lapislazulipaxel>,
+    <mekanismtools:lapislazulihelmet>,
+    <mekanismtools:lapislazulichestplate>,
+    <mekanismtools:lapislazulileggings>,
+    <mekanismtools:lapislazuliboots>,
+    <mekanismtools:obsidianboots>,
+    <mekanismtools:obsidianleggings>,
+    <mekanismtools:obsidianchestplate>,
+    <mekanismtools:obsidianhelmet>,
+    <mekanismtools:obsidianpaxel>,
+    <mekanismtools:obsidiansword>,
+    <mekanismtools:obsidianhoe>,
+    <mekanismtools:obsidianshovel>,
+    <mekanismtools:obsidianaxe>,
+    <mekanismtools:obsidianpickaxe>,
+    <mekanismtools:stonepaxel>,
+    <mekanismtools:woodpaxel>,
+    <industrialupgrade:ruby_helmet>,
+    <industrialupgrade:ruby_chestplate>,
+    <industrialupgrade:ruby_leggings>,
+    <industrialupgrade:ruby_boots>,
+    <industrialupgrade:topaz_helmet>,
+    <industrialupgrade:topaz_chestplate>,
+    <industrialupgrade:topaz_leggings>,
+    <industrialupgrade:topaz_boots>,
+    <industrialupgrade:sapphire_helmet>,
+    <industrialupgrade:sapphire_chestplate>,
+    <industrialupgrade:sapphire_leggings>,
+    <industrialupgrade:sapphire_boots>,
+    <industrialupgrade:iu_bags>.withTag({charge: 50000.0}),
+    <industrialupgrade:iu_bags:27>,
+    <industrialupgrade:adv_iu_bags>.withTag({charge: 75000.0}),
+    <industrialupgrade:adv_iu_bags:27>,
+    <industrialupgrade:imp_iu_bags>.withTag({charge: 100000.0}),
+    <industrialupgrade:imp_iu_bags:27>,
+    <ic2:crafting:38>,
+    <ic2:te:88>,
+    <galacticraftcore:magnetic_table>,
+    <ic2:forge_hammer>,
+    <ic2:cutter>,
+    <mutantbeasts:hulk_hammer>,
+    <tconstruct:wood_rail_trapdoor>,
+    <tconstruct:wood_rail>,
+    <tconstruct:piggybackpack>,
+    <randomthings:emeraldcompass>,
+    <randomthings:superlubricentboots>,
 	<qmd:sword_tungsten_carbide>,
 	<qmd:pickaxe_tungsten_carbide>,
 	<qmd:shovel_tungsten_carbide>,
@@ -40,7 +178,6 @@ removeAndHideItems([
 	<galacticraftcore:machine>,
 	<mekanismgenerators:generator>,
 	<industrialupgrade:basemachine2:4>,
-	<ic2:te:3>,
 	<ic2:te:17>,
 	<industrialupgrade:basemachine2:5>,
 	<notreepunching:mattock/diamond>,
@@ -165,8 +302,26 @@ removeAndHideItems([
 	<industrialupgrade:barionrotor>.withTag({advDmg: 0}),
 	<industrialupgrade:adronrotor>.withTag({advDmg: 0}),
 	<industrialupgrade:ultramarinerotor>.withTag({advDmg: 0}),
-	<randomthings:diviningrod:*>,
-
+    <randomthings:diviningrod>,
+    <randomthings:diviningrod:1>,
+    <randomthings:diviningrod:2>,
+    <randomthings:diviningrod:3>,
+    <randomthings:diviningrod:5>,
+    <randomthings:diviningrod:4>,
+    <randomthings:diviningrod:6>,
+    <randomthings:diviningrod:8>,
+    <randomthings:diviningrod:9>,
+    <randomthings:diviningrod:10>,
+    <randomthings:diviningrod:11>,
+    <randomthings:diviningrod:12>,
+    <randomthings:diviningrod:13>,
+    <randomthings:diviningrod:14>,
+    <randomthings:diviningrod:15>,
+    <randomthings:diviningrod:16>,
+    <randomthings:diviningrod:17>,
+    <randomthings:diviningrod:18>,
+    <randomthings:diviningrod:19>,
+    <randomthings:diviningrod:21>,
 	<randomthings:eclipsedclock>,
 	<randomthings:spectreilluminator>,
 	<randomthings:floopouch>,
@@ -221,7 +376,11 @@ removeAndHideItems([
 	<randomthings:customworkbench>.withTag({woodName: "minecraft:planks", woodMeta: 3}),
 	<randomthings:customworkbench>.withTag({woodName: "minecraft:planks", woodMeta: 2}),
 	<randomthings:customworkbench>.withTag({woodName: "minecraft:planks", woodMeta: 1}),
-	<randomthings:customworkbench>.withTag({woodName: "minecraft:planks", woodMeta: 0})
+	<randomthings:customworkbench>.withTag({woodName: "minecraft:planks", woodMeta: 0}),
+	<ic2:te:100>,
+	<ic2:te:101>,
+	<ic2:te:102>,
+	<ncsteamadditions:copper_wire>
 ]);
 
 removeAndHideAndFurnaceItems([
@@ -276,17 +435,47 @@ removeAndHideAndFurnaceItems([
 	<thermalfoundation:material:228>
 ]);
 
-
-recipes.remove(<minecraft:furnace>);
-recipes.remove(<galacticraftcore:machine2>);
-recipes.remove(<galacticraftcore:machine4>);
-recipes.remove(<galacticraftcore:solar>);
-recipes.remove(<galacticraftcore:machine2:4>);
-recipes.remove(<galacticraftcore:machine2:12>);
-recipes.remove(<galacticraftcore:basic_item:1>);
-recipes.remove(<galacticraftcore:basic_item>);
-recipes.remove(<galacticraftplanets:mars_machine:8>);
-recipes.remove(<galacticraftplanets:geothermal_generator>);
-recipes.remove(<planetprogression:satellite_launcher>);
-recipes.remove(<galacticraftplanets:basic_item_venus:5>);
+removeRecipes([
+    <randomthings:diviningrod:7>,
+    <mekanismgenerators:turbineblade>,
+    <immersiveengineering:stone_decoration>,
+    <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}),
+    <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}),
+    <ic2:plate:1>,
+    <ic2:plate:2>,
+    <ic2:plate:3>,
+    <ic2:plate:5>,
+    <ic2:plate:8>,
+    <ic2:casing:6>,
+    <ic2:casing:1>,
+    <ic2:casing:4>,
+    <ic2:casing:3>,
+    <ic2:casing:2>,
+    <industrialupgrade:moremachine2>,
+    <industrialupgrade:moremachine2:4>,
+    <ic2:plate:1>,
+    <ic2:plate:2>,
+    <ic2:plate:3>,
+    <ic2:plate:5>,
+    <ic2:plate:8>,
+    <ic2:plate:8>,
+    <ic2:casing:1>,
+    <ic2:casing:2>,
+    <ic2:casing:3>,
+    <ic2:casing:6>,
+    <ic2:casing:4>,
+    <ic2:casing:6>,
+    <minecraft:furnace>,
+    <galacticraftcore:machine2>,
+    <galacticraftcore:machine4>,
+    <galacticraftcore:solar>,
+    <galacticraftcore:machine2:4>,
+    <galacticraftcore:machine2:12>,
+    <galacticraftcore:basic_item:1>,
+    <galacticraftcore:basic_item>,
+    <galacticraftplanets:mars_machine:8>,
+    <galacticraftplanets:geothermal_generator>,
+    <planetprogression:satellite_launcher>,
+    <galacticraftplanets:basic_item_venus:5>
+]);
 

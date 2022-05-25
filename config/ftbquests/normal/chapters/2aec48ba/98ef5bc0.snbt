@@ -1,0 +1,69 @@
+{
+	x: -2.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "952e46e8",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared"
+		}],
+		count: 64L
+	},
+	{
+		uid: "e07c05d7",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "4989012e",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}],
+		count: 2L
+	},
+	{
+		uid: "d2ae10c7",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "40a79293",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	},
+	{
+		uid: "db44d785",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "283f6bba",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "d23b47f2",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_furnace_controller"
+		}]
+	},
+	{
+		uid: "30585404",
+		type: "item",
+		items: [{
+			item: "tconstruct:tinker_tank_controller"
+		}]
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "e52d08e2",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom"
+		}]
+	},
+	{
+		uid: "2057eeb7",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}]
+	},
+	{
+		uid: "42b5722a",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	},
+	{
+		uid: "a9791b24",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "b0970ad8",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	}]
+}

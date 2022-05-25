@@ -30,6 +30,15 @@ import crafttweaker.oredict.IOreDictEntry;
 
 <ore:plateConstantan>.remove(<thermalfoundation:material:356>);
 
+<ore:plateAluminium>.remove(<immersiveengineering:metal:31>);
+<ore:plateAluminium>.remove(<thermalfoundation:material:324>);
+
+<ore:plateIridium>.remove(<thermalfoundation:material:327>);
+
+<ore:plateTin>.remove(<thermalfoundation:material:321>);
+
+
+
 
 
 

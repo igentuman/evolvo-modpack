@@ -1,0 +1,15 @@
+{
+	icon: "thermalfoundation:material 1 24",
+	x: -15.5d,
+	y: -12.0d,
+	dependencies: [
+		"dc6f4513",
+		"2aec48ba"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5537b9a3",
+		type: "checkmark",
+		title: "Complete Basic Processing"
+	}]
+}

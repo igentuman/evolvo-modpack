@@ -1,0 +1,12 @@
+{
+	x: -4.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "8300afda",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}]
+}

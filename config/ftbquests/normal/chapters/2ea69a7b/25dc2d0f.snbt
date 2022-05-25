@@ -12,7 +12,7 @@
 		items: [{
 			item: "minecraft:cooked_porkchop"
 		}],
-		count: 16L
+		count: 4L
 	},
 	{
 		uid: "975122f1",
@@ -20,7 +20,7 @@
 		items: [{
 			item: "minecraft:cooked_chicken"
 		}],
-		count: 16L
+		count: 4L
 	},
 	{
 		uid: "af3d9a77",
@@ -28,7 +28,7 @@
 		items: [{
 			item: "minecraft:cooked_mutton"
 		}],
-		count: 16L
+		count: 4L
 	},
 	{
 		uid: "5d22633f",
@@ -36,7 +36,7 @@
 		items: [{
 			item: "minecraft:carrot"
 		}],
-		count: 16L
+		count: 4L
 	},
 	{
 		uid: "dcfea1fe",
@@ -44,7 +44,7 @@
 		items: [{
 			item: "minecraft:potato"
 		}],
-		count: 16L
+		count: 4L
 	}],
 	rewards: [{
 		uid: "9860b197",

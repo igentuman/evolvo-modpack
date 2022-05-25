@@ -1,6 +1,10 @@
 {
 	x: -6.5d,
 	y: -5.0d,
+	description: "The way you learn stuff",
+	text: [
+		""
+	],
 	dependencies: [
 		"74cec2d4"
 	],

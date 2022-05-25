@@ -1,0 +1,12 @@
+{
+	x: -6.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "a353f623",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}]
+}

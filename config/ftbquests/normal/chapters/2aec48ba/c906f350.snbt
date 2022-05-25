@@ -1,0 +1,18 @@
+{
+	x: -6.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "44b076de",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:grindstone"
+		}]
+	},
+	{
+		uid: "45d106b0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crank"
+		}]
+	}]
+}

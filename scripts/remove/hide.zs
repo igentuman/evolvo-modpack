@@ -7,6 +7,22 @@ function hideItems(items as IItemStack[]) {
 	}
 }
 hideItems([
+    <randomthings:runepattern>,
+    <randomthings:goldencompass>,
+    <randomthings:ingredient:8>,
+    <randomthings:ingredient:7>,
+    <randomthings:ingredient:10>,
+    <randomthings:redstoneremote>,
+    <randomthings:flootoken>,
+    <randomthings:portkey>,
+    <randomthings:lotusseeds>,
+    <randomthings:soundpattern>,
+    <randomthings:soundrecorder>,
+    <randomthings:portablesounddampener>.withTag({}),
+    <randomthings:escaperope>,
+    <randomthings:weatheregg>,
+    <randomthings:weatheregg:1>,
+    <randomthings:weatheregg:2>,
 	<appliedenergistics2:creative_energy_cell>,
 	<appliedenergistics2:creative_storage_cell>.withTag({}),
 	<galacticraftcore:infinite_battery>,
