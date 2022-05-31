@@ -16,6 +16,7 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:plateNickel>.remove(<immersiveengineering:metal:34>);
 
 <ore:plateSilver>.remove(<thermalfoundation:material:322>);
+<ore:plateSilver>.remove(<immersiveengineering:metal:33>);
 
 <ore:plateSteel>.remove(<thermalfoundation:material:352>);
 <ore:plateSteel>.remove(<immersiveengineering:metal:38>);
@@ -36,6 +37,15 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:plateIridium>.remove(<thermalfoundation:material:327>);
 
 <ore:plateTin>.remove(<thermalfoundation:material:321>);
+
+<ore:plateIron>.remove(<thermalfoundation:material:32>);
+<ore:plateIron>.remove(<immersiveengineering:metal:39>);
+
+<ore:plateAluminium>.remove(<immersiveengineering:metal:31>);
+<ore:plateAluminium>.remove(<thermalfoundation:material:324>);
+
+<ore:plateGold>.remove(<immersiveengineering:metal:40>);
+<ore:plateGold>.remove(<thermalfoundation:material:33>);
 
 
 

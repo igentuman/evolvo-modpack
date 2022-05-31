@@ -6,7 +6,6 @@ import crafttweaker.oredict.IOreDictEntry;
 
 <ore:nuggetCopper>.remove(<mekanism:nugget:5>);
 <ore:nuggetCopper>.remove(<immersiveengineering:metal:20>);
-<ore:nuggetCopper>.remove(<thermalfoundation:material:192>);
 
 <ore:nuggetLead>.remove(<immersiveengineering:metal:22>);
 
@@ -27,5 +26,17 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:nuggetElectrum>.remove(<immersiveengineering:metal:27>);
 
 <ore:nuggetConstantan>.remove(<thermalfoundation:material:228>);
+
+<ore:nuggetIridium>.remove(<thermalfoundation:material:199>);
+
+<ore:nuggetAluminium>.remove(<thermalfoundation:material:196>);
+<ore:nuggetAluminium>.remove(<immersiveengineering:metal:21>);
+
+<ore:nuggetBronze>.remove(<mekanism:nugget:2>);
+
+<ore:nuggetTin>.remove(<mekanism:nugget:6>);
+
+<ore:nuggetCobalt>.remove(<tconstruct:nuggets>);
+
 
 

@@ -1,20 +1,135 @@
-// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+// For more info visit https://github.com/FTBTeam/FTB-Ranks/wiki
 
 [player]
-default_player_rank: true
 power: 1
-example.permission: true
-example.other_permission: false
-example.permission_with_value: 0
+default_player_rank: true
+ftbutilities.claims.max_chunks: 1
+ftbutilities.chunkloader.max_chunks: 1
+ftbutilities.homes.cooldown: 1500s
+ftbutilities.chunkloader.load_offline: false
+ftbutilities.spawn.cooldown: 1500s
+ftbutilities.tpa.cooldown: 1500s
+ftbutilities.tpa.cross_dim: false
+ftbutilities.homes.cross_dim: false
+ftbutilities.spawn.cross_dim: false
+ftbutilities.rtp.cross_dim: false
+ftbutilities.homes.warmup: 10s
+ftbutilities.rtp.warmup: 10s
 
-[vip]
-power: 20
-ftbutilities.chat.name_format: <&bVIP {name}&r>
-example.other_permission: true
-example.permission_with_value: 15
+[tinker]
+power: 2
+parent: player
+ftbutilities.chat.name_format: <&b[TINKER]&r {name}&r>
+ftbutilities.claims.max_chunks: 2
+ftbutilities.chunkloader.max_chunks: 2
+ftbutilities.homes.warmup: 9s
+ftbutilities.homes.max: 1
+ftbutilities.homes.cooldown: 1200s
+ftbutilities.back.cooldown: 1200s
+ftbutilities.rtp.warmup: 9s
+ftbutilities.badge: [TINKER]
+ftbutilities.rtp.cooldown: 1200s
+ftbutilities.chunkloader.load_offline: false
 
-[admin]
+[steampunk]
+power: 3
+parent: tinker
+ftbutilities.chat.name_format: <&2[STEAMPUNK]&r {name}&r>
+ftbutilities.claims.max_chunks: 3
+ftbutilities.chunkloader.max_chunks: 3
+ftbutilities.homes.warmup: 8s
+ftbutilities.homes.max: 1
+ftbutilities.homes.cooldown: 900s
+ftbutilities.back.cooldown: 900s
+ftbutilities.rtp.cooldown: 900s
+ftbutilities.back.warmup: 8s
+ftbutilities.badge: [STEAMPUNK]
+ftbutilities.tpa.cross_dim: false
+ftbutilities.rtp.cross_dim: false
+ftbutilities.homes.cross_dim: false
+ftbutilities.spawn.cross_dim: false
+
+[electric]
+power: 4
+parent: steampunk
+ftbutilities.chat.name_format: <&2[ELECTRIC]&r {name}&r>
+ftbutilities.claims.max_chunks: 5
+ftbutilities.chunkloader.max_chunks: 5
+ftbutilities.homes.warmup: 7s
+ftbutilities.homes.max: 1
+ftbutilities.homes.cooldown: 600s
+ftbutilities.back.cooldown: 600s
+ftbutilities.rtp.cooldown: 600s
+ftbutilities.rtp.warmup: 7s
+ftbutilities.badge: [ELECTRIC]
+
+[engineer]
+power: 5
+parent: electric
+ftbutilities.chat.name_format: <&2[ENGINEER]&r {name}&r>
+ftbutilities.claims.max_chunks: 10
+ftbutilities.chunkloader.max_chunks: 10
+ftbutilities.homes.warmup: 6s
+ftbutilities.homes.max: 2
+ftbutilities.homes.cooldown: 300s
+ftbutilities.back.cooldown: 300s
+ftbutilities.rtp.cooldown: 300s
+ftbutilities.rtp.warmup: 6s
+ftbutilities.badge: [ENGINEER]
+
+[scientist]
+power: 6
+parent: engineer
+ftbutilities.chat.name_format: <&2[SCIENTIST]&r {name}&r>
+ftbutilities.claims.max_chunks: 20
+ftbutilities.chunkloader.max_chunks: 20
+ftbutilities.homes.warmup: 5s
+ftbutilities.homes.max: 3
+ftbutilities.homes.cooldown: 150s
+ftbutilities.back.cooldown: 150s
+ftbutilities.rtp.cooldown: 150s
+ftbutilities.rtp.warmup: 5s
+ftbutilities.badge: [SCIENTIST]
+
+[god]
+power: 7
+parent: scientist
 default_op_rank: true
-power: 100
-ftbutilities.chat.name_format: <&2{name}&r>
-example.permission_with_value: 100
+ftbutilities.chat.name_format: <&2[GOD]&r {name}&r>
+ftbutilities.claims.max_chunks: 50
+ftbutilities.chunkloader.max_chunks: 50
+ftbutilities.homes.warmup: 1s
+ftbutilities.homes.max: 5
+ftbutilities.homes.cooldown: 75s
+ftbutilities.back.cooldown: 75s
+ftbutilities.rtp.cooldown: 75s
+ftbutilities.rtp.warmup: 1s
+ftbutilities.badge: [GOD]
+
+[architect]
+power: 5
+parent: engineer
+ftbutilities.chat.name_format: <&2[ARCHITECT]&r {name}&r>
+ftbutilities.claims.max_chunks: 10
+ftbutilities.chunkloader.max_chunks: 10
+ftbutilities.homes.warmup: 5s
+ftbutilities.homes.max: 2
+ftbutilities.homes.cooldown: 150s
+ftbutilities.back.cooldown: 150s
+ftbutilities.rtp.cooldown: 150s
+ftbutilities.rtp.warmup: 5s
+ftbutilities.badge: [ARCHITECT]
+
+[patron]
+power: 5
+parent: engineer
+ftbutilities.chat.name_format: <&2[PATRON]&r {name}&r>
+ftbutilities.claims.max_chunks: 10
+ftbutilities.chunkloader.max_chunks: 10
+ftbutilities.homes.warmup: 5s
+ftbutilities.homes.max: 2
+ftbutilities.homes.cooldown: 150s
+ftbutilities.back.cooldown: 150s
+ftbutilities.rtp.cooldown: 150s
+ftbutilities.rtp.warmup: 5s
+ftbutilities.badge: [PATRON]

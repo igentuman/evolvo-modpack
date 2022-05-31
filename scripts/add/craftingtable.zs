@@ -35,6 +35,10 @@ recipes.addShaped("mekanismgenerators_generator_7", <mekanismgenerators:generato
 
 recipes.addShaped("randomthings_diviningrod_universal", <randomthings:diviningrod:7>, [[<ore:ingotIron>, <ore:gemLapis>, <ore:ingotIron>], [<immersiveengineering:material>, <minecraft:slime_ball>, <immersiveengineering:material>], [<immersiveengineering:material>, null, <immersiveengineering:material>]]);
 
+recipes.addShapeless("minecraft_flint_and_steel", <minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:flint>]);
+
+recipes.addShapeless("steel_block", <ic2:resource:8>, [<immersiveengineering:storage:8>]);
+
 //todo add
 //recipes.addShaped("ic2_831", <industrialupgrade:moremachine2>, [[null, null, null], [null, null, null], [null, null, null]]);
 //recipes.addShaped("ic2_835", <industrialupgrade:moremachine2:4>, [[null, null, null], [null, null, null], [null, null, null]]);

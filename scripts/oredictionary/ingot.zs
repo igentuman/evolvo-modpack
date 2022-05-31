@@ -54,6 +54,31 @@ import crafttweaker.oredict.IOreDictEntry;
 
 <ore:ingotConstantan>.remove(<thermalfoundation:material:164>);
 
+<ore:ingotIridium>.remove(<thermalfoundation:material:135>);
+<ore:ingotIridium>.remove(<qmd:ingot:9>);
+
+<ore:ingotAluminium>.remove(<galacticraftcore:basic_item:5>);
+<ore:ingotAluminium>.remove(<immersiveengineering:metal:1>);
+<ore:ingotAluminium>.remove(<thermalfoundation:material:132>);
+<ore:ingotAluminium>.remove(<nuclearcraft:ingot:12>);
+
+<ore:ingotZinc>.remove(<ncsteamadditions:ingot>);
+
+<ore:ingotSilver>.remove(<industrialupgrade:itemingots:14>);
+<ore:ingotSilver>.remove(<nuclearcraft:ingot:13>);
+
+<ore:ingotManganese>.remove(<nuclearcraft:ingot:11>);
+
+<ore:ingotCobalt>.remove(<qmd:ingot:4>);
+<ore:ingotCobalt>.remove(<tconstruct:ingots>);
+
+<ore:ingotOsmium>.remove(<qmd:ingot:8>);
+
+<ore:ingotTungsten>.remove(<qmd:ingot>);
+
+<ore:ingotChromium>.remove(<qmd:ingot:2>);
+
+<ore:ingotTitanium>.remove(<galacticraftplanets:item_basic_asteroids>);
 
 
 

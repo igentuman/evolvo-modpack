@@ -44,6 +44,16 @@ stageLiquids("Quantum Tech", [
 stageLiquids("Elite Electronics", [
     <liquid:ic2uu_matter>
 ]);
+stageLiquids("Aluminium", [
+    <liquid:aluminum>,
+    <liquid:alubrass>,
+    <liquid:alugentum>,
+    <liquid:alumina>
+]);
+
+stageLiquids("Dark Steel", [
+    <liquid:dark_steel>
+]);
 
 stageLiquids("Steam", [
     <liquid:steam>,
@@ -119,6 +129,8 @@ stageLiquids("Steam", [
 ]);
 
 stageLiquids("Nuclear Tech", [
+<liquid:boron_10>,
+<liquid:boron_11>,
     <liquid:uranium_233>,
     <liquid:uranium>,
     <liquid:thorium>,

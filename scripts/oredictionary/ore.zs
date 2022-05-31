@@ -34,3 +34,11 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:oreSilver>.remove(<thermalfoundation:ore:2>);
 
 <ore:oreMagnesium>.remove(<nuclearcraft:ore:7>);
+
+<ore:oreIridium>.remove(<thermalfoundation:ore:7>);
+
+<ore:oreAluminium>.remove(<immersiveengineering:ore:1>);
+<ore:oreAluminium>.remove(<galacticraftcore:basic_block_core:7>);
+<ore:oreAluminium>.remove(<thermalfoundation:ore:4>);
+
+<ore:oreZinc>.remove(<ncsteamadditions:ore>);

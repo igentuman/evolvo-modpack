@@ -11544,6 +11544,7 @@ appliedenergistics2:material:27, Capacity Card
 appliedenergistics2:material:53, Crafting Card
 appliedenergistics2:material:29, Fuzzy Card
 appliedenergistics2:material:31, Inverter Card
+appliedenergistics2:material:58, Pattern Expansion Card
 appliedenergistics2:material:26, Redstone Card
 appliedenergistics2:material:30, Acceleration Card
 appliedenergistics2:material:34, 128³ Spatial Component
@@ -11680,6 +11681,7 @@ appliedenergistics2:part:56, ME Smart Cable - Fluix
 appliedenergistics2:part:420, ME Conversion Monitor
 appliedenergistics2:part:360, ME Crafting Terminal
 appliedenergistics2:part:200, Dark Illuminated Panel
+appliedenergistics2:part:341, ME Extended Processing Pattern Terminal
 appliedenergistics2:part:260, ME Export Bus
 appliedenergistics2:part:302, ME Fluid Annihilation Plane
 appliedenergistics2:part:261, ME Fluid Export Bus
@@ -11697,6 +11699,7 @@ appliedenergistics2:part:480, ME Interface Terminal
 appliedenergistics2:part:100, ME Inverted Toggle Bus
 appliedenergistics2:part:280, ME Level Emitter
 appliedenergistics2:part:160, Bright Illuminated Panel
+appliedenergistics2:part:222, ME OreDict Storage Bus
 appliedenergistics2:part:469, P2P Tunnel - FE
 appliedenergistics2:part:463, P2P Tunnel - Fluid
 appliedenergistics2:part:465, P2P Tunnel - EU
@@ -13499,34 +13502,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Fletching Pattern
 tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Axe Head Pattern
 tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Pan Pattern
 tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Sign Plate Pattern
 tconstruct:shard:0, Electrical Shard
 tconstruct:sharpening_kit:0, Electrical Sharpening Kit
 tconstruct:pick_head:0, Electrical Pickaxe Head
@@ -13633,64 +13636,64 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Bowstring Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Shovel Head Cast
 tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Axe Head Cast
 tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Pan Cast
 tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Sign Plate Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
 tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
 tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
 tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -15098,74 +15101,6 @@ simpleoresamples:sampleblocksapphire, tile.sampleblockSapphire.name
 simpleoresamples:sampleblockiron, tile.sampleblockIron.name
 simpleoresamples:sampleblockcopper, tile.sampleblockCopper.name
 simpleoresamples:sampleblockruby, tile.sampleblockRuby.name
-srparasites:infestedstain, Infested Dirt
-srparasites:infestremain, Infested Residue
-srparasites:infestedtrunk, Infested Log
-srparasites:infestedrubble, Infested Stone
-srparasites:infestedbush:0, Infested Veins
-srparasites:infestedbush:1, Infested Veins
-srparasites:infestedbush:2, Infested Veins
-srparasites:infestedbush:3, Infested Veins
-srparasites:infestedbush:4, Infested Veins
-srparasites:infestedbush:5, Infested Veins
-srparasites:biomeheart, Parasitic Biome Core
-srparasites:colonyheart, Parasitic Colony Core
-srparasites:biomepurifier, Biome Purifier
-srparasites:parasitebush:0, Parasitic Net
-srparasites:parasitebush:1, Parasitic Ringlet
-srparasites:parasitebush:2, Parasitic Vesicle
-srparasites:parasitebush:3, tile.srparasites.parasitebush_eye.name
-srparasites:parasitebush:4, tile.srparasites.parasitebush_tooh.name
-srparasites:parasitecanister:0, Parasitic Sac
-srparasites:parasitecanister:1, Parasitic Cyst
-srparasites:parasitecanister:2, Parasitic Lump
-srparasites:parasitecanister:3, Parasitic Bag
-srparasites:parasitetrunk:0, Parasitic Log
-srparasites:parasitetrunk:1, Parasitic Log
-srparasites:parasitetrunk:2, Parasitic Log
-srparasites:parasitestain:0, Parasitic Dirt
-srparasites:parasitestain:1, Parasitic Mud
-srparasites:parasitestain:2, Parasitic Flesh
-srparasites:parasitestain:3, Parasitic Veins
-srparasites:parasiterubble:0, Parasitic Concentrated Flesh
-srparasites:parasiterubble:1, Parasitic Concentrated Bone
-srparasites:parasiterubble:2, Parasitic Stone
-srparasites:parasitestructure, Parasitic Colony Incomplete Structure
-srparasites:parasitethin, Parasitic Thin Log
-srparasites:parasitesapling:0, Parasitic Sapling
-srparasites:parasitesapling:1, Parasitic Sapling
-srparasites:parasitesapling:2, Parasitic Sapling
-srparasites:parasitemouth, Parasitic Mouth
-srparasites:parasiterubbledense:0, Parasitic Compressed Stone
-srparasites:parasiterubbledense:1, Parasitic Compressed Biome Stone
-srparasites:parasiterubbledense:2, Parasitic Compressed Colony Stone
-srparasites:parasiterubble_bonestairs, Parasitic Concentrated Bone Stairs
-srparasites:parasitestain_fleshstairs, Parasitic Flesh Stairs
-srparasites:parasiterubble_slabhalf:0, Parasitic Half Slab
-srparasites:parasitetendril, Parasitic Tendril
-srparasites:parasitefog, Fog
-srparasites:srpweb, Web
-srparasites:evolutionlure:0, Lure (Weakened)
-srparasites:evolutionlure:1, Lure (Faint)
-srparasites:evolutionlure:2, Lure (Slender)
-srparasites:evolutionlure:3, Lure (Stable)
-srparasites:evolutionlure:4, Lure (Substantial)
-srparasites:evolutionlure:5, Lure (Concentrated)
-srparasites:evolutionlure:6, Lure (Concentrated+)
-srparasites:evolutionlure:7, Lure (Concentrated++)
-srparasites:gore:0, Assimilated Remains
-srparasites:gore:1, Assimilated Remains
-srparasites:gore:2, Primitive Remains
-srparasites:gore:3, Primitive Remains
-srparasites:gore:4, Adapted Remains
-srparasites:gore:5, Adapted Remains
-srparasites:gore:6, Pure Remains
-srparasites:gore:7, Pure Remains
-srparasites:gore:8, Assimilated Remains
-srparasites:gore:9, Primitive Remains
-srparasites:gore:10, Adapted Remains
-srparasites:gore:11, Pure Remains
-srparasites:canisteractive, Parasitic Cyst (Active)
 srparasites:ada_summoner_drop, Summoner Core
 srparasites:ada_yelloweye_drop, Yelloweye Bone
 srparasites:ada_manducater_drop, Manducater Orb
@@ -15256,6 +15191,74 @@ srparasites:weapon_cleaver, Living Cleaver
 srparasites:weapon_cleaver_sentient, Sentient Greatcleaver
 srparasites:weapon_bow, Living Bow
 srparasites:weapon_bow_sentient, Sentient Greatbow
+srparasites:infestedstain, Infested Dirt
+srparasites:infestremain, Infested Residue
+srparasites:infestedtrunk, Infested Log
+srparasites:infestedrubble, Infested Stone
+srparasites:infestedbush:0, Infested Veins
+srparasites:infestedbush:1, Infested Veins
+srparasites:infestedbush:2, Infested Veins
+srparasites:infestedbush:3, Infested Veins
+srparasites:infestedbush:4, Infested Veins
+srparasites:infestedbush:5, Infested Veins
+srparasites:biomeheart, Parasitic Biome Core
+srparasites:colonyheart, Parasitic Colony Core
+srparasites:biomepurifier, Biome Purifier
+srparasites:parasitebush:0, Parasitic Net
+srparasites:parasitebush:1, Parasitic Ringlet
+srparasites:parasitebush:2, Parasitic Vesicle
+srparasites:parasitebush:3, tile.srparasites.parasitebush_eye.name
+srparasites:parasitebush:4, tile.srparasites.parasitebush_tooh.name
+srparasites:parasitecanister:0, Parasitic Sac
+srparasites:parasitecanister:1, Parasitic Cyst
+srparasites:parasitecanister:2, Parasitic Lump
+srparasites:parasitecanister:3, Parasitic Bag
+srparasites:parasitetrunk:0, Parasitic Log
+srparasites:parasitetrunk:1, Parasitic Log
+srparasites:parasitetrunk:2, Parasitic Log
+srparasites:parasitestain:0, Parasitic Dirt
+srparasites:parasitestain:1, Parasitic Mud
+srparasites:parasitestain:2, Parasitic Flesh
+srparasites:parasitestain:3, Parasitic Veins
+srparasites:parasiterubble:0, Parasitic Concentrated Flesh
+srparasites:parasiterubble:1, Parasitic Concentrated Bone
+srparasites:parasiterubble:2, Parasitic Stone
+srparasites:parasitestructure, Parasitic Colony Incomplete Structure
+srparasites:parasitethin, Parasitic Thin Log
+srparasites:parasitesapling:0, Parasitic Sapling
+srparasites:parasitesapling:1, Parasitic Sapling
+srparasites:parasitesapling:2, Parasitic Sapling
+srparasites:parasitemouth, Parasitic Mouth
+srparasites:parasiterubbledense:0, Parasitic Compressed Stone
+srparasites:parasiterubbledense:1, Parasitic Compressed Biome Stone
+srparasites:parasiterubbledense:2, Parasitic Compressed Colony Stone
+srparasites:parasiterubble_bonestairs, Parasitic Concentrated Bone Stairs
+srparasites:parasitestain_fleshstairs, Parasitic Flesh Stairs
+srparasites:parasiterubble_slabhalf:0, Parasitic Half Slab
+srparasites:parasitetendril, Parasitic Tendril
+srparasites:parasitefog, Fog
+srparasites:srpweb, Web
+srparasites:evolutionlure:0, Lure (Weakened)
+srparasites:evolutionlure:1, Lure (Faint)
+srparasites:evolutionlure:2, Lure (Slender)
+srparasites:evolutionlure:3, Lure (Stable)
+srparasites:evolutionlure:4, Lure (Substantial)
+srparasites:evolutionlure:5, Lure (Concentrated)
+srparasites:evolutionlure:6, Lure (Concentrated+)
+srparasites:evolutionlure:7, Lure (Concentrated++)
+srparasites:gore:0, Assimilated Remains
+srparasites:gore:1, Assimilated Remains
+srparasites:gore:2, Primitive Remains
+srparasites:gore:3, Primitive Remains
+srparasites:gore:4, Adapted Remains
+srparasites:gore:5, Adapted Remains
+srparasites:gore:6, Pure Remains
+srparasites:gore:7, Pure Remains
+srparasites:gore:8, Assimilated Remains
+srparasites:gore:9, Primitive Remains
+srparasites:gore:10, Adapted Remains
+srparasites:gore:11, Pure Remains
+srparasites:canisteractive, Parasitic Cyst (Active)
 researchtable:table, Research Table
 base:wrench, Wrench
 betterbuilderswands:wandstone, Stone Wand
@@ -15271,6 +15274,16 @@ theoneprobe:iron_helmet_probe:0, Iron Helmet with Probe
 contenttweaker:green_pack, Green Science Pack
 contenttweaker:red_pack, Red Science Pack
 contenttweaker:blue_pack, Blue Science Pack
+mysticalmechanics:axle_iron, Iron Axle
+mysticalmechanics:gearbox_frame, Gearbox Frame
+mysticalmechanics:mergebox_frame, Mergebox Frame
+mysticalmechanics:creative_mech_source, Creative Mechanical Source
+mysticalmechanics:gear_iron, Iron Gear
+mysticalmechanics:gear_gold, Gold Gear
+mysticalmechanics:gear_gold_on, Redstone Gear (Inverted)
+mysticalmechanics:gear_gold_off, Redstone Gear
+mysticalmechanics:gear_fan, Iron Fan
+evtweaks:mechanical_forgehammer, tile.null.name
 industrialforegoing:petrified_fuel_generator, Petrified Fuel Generator
 industrialforegoing:enchantment_refiner, Enchantment Sorter
 industrialforegoing:enchantment_extractor, Enchantment Extractor
@@ -15435,15 +15448,6 @@ industrialforegoing:conveyor:14, Red§r Conveyor Belt
 industrialforegoing:conveyor:15, Black§r Conveyor Belt
 industrialforegoing:black_hole_label, Black Hole Label
 mcjtylib_ng:multipart, tile.mcjtylib_ng.multipart.name
-mysticalmechanics:axle_iron, Iron Axle
-mysticalmechanics:gearbox_frame, Gearbox Frame
-mysticalmechanics:mergebox_frame, Mergebox Frame
-mysticalmechanics:creative_mech_source, Creative Mechanical Source
-mysticalmechanics:gear_iron, Iron Gear
-mysticalmechanics:gear_gold, Gold Gear
-mysticalmechanics:gear_gold_on, Redstone Gear (Inverted)
-mysticalmechanics:gear_gold_off, Redstone Gear
-mysticalmechanics:gear_fan, Iron Fan
 mech_crafting:mechanical_crafter, Mechanical Crafter
 mech_crafting:sturdy_gearbox, Sturdy Gearbox
 mech_crafting:mechanical_bellows, Mechanical Bellows

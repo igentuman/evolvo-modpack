@@ -50,4 +50,14 @@ import crafttweaker.oredict.IOreDictEntry;
 
 <ore:blockConstantan>.remove(<thermalfoundation:storage_alloy:4>);
 
+<ore:blockIridium>.remove(<thermalfoundation:storage:7>);
+
+<ore:blockAluminium>.remove(<immersiveengineering:storage:1>);
+<ore:blockAluminium>.remove(<galacticraftcore:basic_block_core:11>);
+<ore:blockAluminium>.remove(<thermalfoundation:storage:4>);
+<ore:blockAluminium>.remove(<nuclearcraft:ingot_block:12>);
+
+<ore:blockZinc>.remove(<ncsteamadditions:ingot_block>);
+
+<ore:blockTitanium>.remove(<galacticraftplanets:asteroids_block:7>);
 

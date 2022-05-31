@@ -139,7 +139,7 @@ stageCategories("Farming", [
     "farmer"
 ]);
 
-stageCategories("Void Mining", [
+stageCategories("`Void Mining`", [
     "laser_category",
     "quantum_quarry",
     "quantum_quarry1"
@@ -251,7 +251,7 @@ stageCategories("Basic Electronics",[
     "nuclearcraft_alloy_furnace",
 ]);
 
-stageCategories("Nuclear Tech", [
+stageCategories("Nuclear Tech 2", [
     "irradiator",
     "irradiator_fuel",
     "nuclearcraft_separator",
