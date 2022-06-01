@@ -1,6 +1,11 @@
 {
-	x: -0.5d,
-	y: -2.5d,
+	x: -2.5d,
+	y: -1.0d,
+	dependencies: [
+		"c1412603",
+		"1503ffb9",
+		"93799362"
+	],
 	tasks: [{
 		uid: "3c196db8",
 		type: "item",
@@ -59,11 +64,10 @@
 		}]
 	},
 	{
-		uid: "8d2b46f3",
+		uid: "ebb89efc",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 24"
-		}],
-		count: 4L
+			item: "evtweaks:mechanical_forgehammer"
+		}]
 	}]
 }

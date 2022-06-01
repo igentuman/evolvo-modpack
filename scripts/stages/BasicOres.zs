@@ -10,6 +10,12 @@ function stageItems(stage as string, items as IItemStack[]) {
 }
 
 stageItems("Basic Ores",[
+    <mech_crafting:mechanical_bellows>,
+    <mysticalmechanics:mergebox_frame>,
+    <mysticalmechanics:gearbox_frame>,
+    <mech_crafting:sturdy_gearbox>,
+    <mech_crafting:mechanical_crafter>,
+    <evtweaks:mechanical_forgehammer>,
     <nuclearcraft:moresmore>,
     <nuclearcraft:smore>,
     <nuclearcraft:marshmallow>,

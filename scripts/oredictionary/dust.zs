@@ -33,7 +33,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 <ore:dustSilver>.remove(<thermalfoundation:material:66>);
 <ore:dustSilver>.remove(<immersiveengineering:metal:12>);
-<ore:dustSilver>.remove(<industrialupgrade:itemdust:14>);
+//<ore:dustSilver>.remove(<industrialupgrade:itemdust:14>);
 <ore:dustSilver>.remove(<mekanism:dust:5>);
 <ore:dustSilver>.remove(<nuclearcraft:dust:13>);
 

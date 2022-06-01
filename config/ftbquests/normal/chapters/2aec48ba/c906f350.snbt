@@ -1,6 +1,10 @@
 {
-	x: -6.5d,
+	icon: "appliedenergistics2:grindstone",
+	x: -8.5d,
 	y: -2.5d,
+	dependencies: [
+		"12937fc5"
+	],
 	tasks: [{
 		uid: "44b076de",
 		type: "item",

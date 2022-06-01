@@ -1,47 +1,57 @@
 {
-	x: -0.5d,
-	y: -1.0d,
+	x: -4.5d,
+	y: 0.5d,
+	dependencies: [
+		"f2fa119f"
+	],
 	tasks: [{
-		uid: "e52d08e2",
+		uid: "55a2f080",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 4"
+		}]
+	},
+	{
+		uid: "64592564",
 		type: "item",
 		items: [{
 			item: "tconstruct:cast_custom"
 		}]
 	},
 	{
-		uid: "2057eeb7",
+		uid: "681b52f1",
 		type: "item",
 		items: [{
-			item: "tconstruct:pattern"
+			item: "tconstruct:cast_custom 1 3"
 		}]
 	},
 	{
-		uid: "42b5722a",
+		uid: "655c2499",
 		type: "item",
 		items: [{
-			id: "tconstruct:pattern",
-			tag: {
-				PartType: "tconstruct:tool_rod"
-			}
-		}]
-	},
-	{
-		uid: "a9791b24",
-		type: "item",
-		items: [{
-			id: "tconstruct:pattern",
+			id: "tconstruct:cast",
 			tag: {
 				PartType: "tconstruct:binding"
 			}
 		}]
 	},
 	{
-		uid: "b0970ad8",
+		uid: "d04a8d76",
 		type: "item",
 		items: [{
-			id: "tconstruct:pattern",
+			id: "tconstruct:cast",
 			tag: {
 				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "e3e2f4a2",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tool_rod"
 			}
 		}]
 	}]

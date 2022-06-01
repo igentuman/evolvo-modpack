@@ -1,6 +1,6 @@
 {
 	icon: "thermalfoundation:material 1 24",
-	x: -15.5d,
+	x: -17.0d,
 	y: -12.0d,
 	dependencies: [
 		"dc6f4513",

@@ -1,5 +1,9 @@
 {
 	title: "Iron Protection",
+	icon: {
+		id: "minecraft:iron_chestplate",
+		tag: {}
+	},
 	x: -2.0d,
 	y: -5.0d,
 	text: [

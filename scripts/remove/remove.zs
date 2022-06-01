@@ -614,7 +614,7 @@ removeAndHideAndFurnaceItems([
 	<immersiveengineering:metal:7>,
 	<thermalfoundation:material:161>,
 	<thermalfoundation:material:164>,
-	<thermalfoundation:material:228>
+	<thermalfoundation:material:228>,
 
 	<thermalfoundation:material:33>,
     <immersiveengineering:metal:40>,

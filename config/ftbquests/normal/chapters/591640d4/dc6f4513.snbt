@@ -1,6 +1,6 @@
 {
 	icon: "notreepunching:rock/diorite",
-	x: -19.0d,
+	x: -20.0d,
 	y: -12.0d,
 	dependencies: [
 		"09f043c8",

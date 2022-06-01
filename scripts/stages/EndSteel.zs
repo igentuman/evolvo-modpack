@@ -33,5 +33,7 @@ stageItems("End Steel",[
     <enderio:item_end_steel_pickaxe>.withTag({"enderio.darksteel.upgrade.travel": {level: 0}, "enderio.darksteel.upgrade.direct": {level: 0}, "enderio.darksteel.upgrade.energyUpgrade": {level: 4, energy: 2500000}, "enderio.darksteel.upgrade.spoon": {level: 0}, "enderio.darksteel.upgrade.tnt": {level: 0}}),
     <enderio:item_end_steel_pickaxe>,
     <enderio:item_end_steel_sword>.withTag({"enderio.darksteel.upgrade.travel": {level: 0}, "enderio.darksteel.upgrade.direct": {level: 0}, "enderio.darksteel.upgrade.energyUpgrade": {level: 4, energy: 2500000}}),
-    <enderio:item_end_steel_sword>
+    <enderio:item_end_steel_sword>,
+    <enderio:item_end_steel_shield>.withTag({"enderio.darksteel.upgrade.energyUpgrade": {level: 3, energy: 1000000}}),
+    <enderio:item_end_steel_shield>
 ]);

@@ -27,7 +27,7 @@ ArcFurnace.addRecipe(<ic2:ingot:5>, <minecraft:iron_ingot> | <ic2:dust:8>, <ic2:
 ArcFurnace.addRecipe(<ic2:ingot:5>, <ic2:dust:8>, <ic2:misc_resource:5>, 80, 2048, 	[<ic2:coke>], "Alloying");
 InductionSmelter.removeRecipe(<mekanism:otherdust:1>, <minecraft:sand>);
 InductionSmelter.removeRecipe(<ic2:plate:7>, <minecraft:sand>);
-InductionSmelter.removeRecipe(<ic2:dust:2>, <ic2:dust:8>);
+//InductionSmelter.removeRecipe(<ic2:dust:2>, <ic2:dust:8>);
 InductionSmelter.removeRecipe(<ic2:coke>, <ic2:dust:8>);
 InductionSmelter.addRecipe(<ic2:ingot:5>, <mekanism:otherdust:1>, <minecraft:sand>, 400);
 InductionSmelter.addRecipe(<ic2:ingot:5>, <ic2:plate:7>, <minecraft:sand>, 400);
