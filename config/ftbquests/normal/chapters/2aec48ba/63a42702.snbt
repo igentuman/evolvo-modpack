@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	dependencies: [
+		"1317f5a0"
+	],
+	tasks: [{
+		uid: "ebe69460",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "e0d482ef",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 9"
+		}],
+		count: 16L
+	}]
+}

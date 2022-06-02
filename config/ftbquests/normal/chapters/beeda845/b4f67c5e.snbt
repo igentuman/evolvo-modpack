@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	shape: "gear",
+	dependencies: [
+		"4166d202"
+	],
+	optional: true,
+	tasks: [{
+		uid: "075331c4",
+		type: "gamestage",
+		title: "Research Multiblock Boiler",
+		icon: "researchtable:table",
+		stage: "Multiblock Steam"
+	}]
+}

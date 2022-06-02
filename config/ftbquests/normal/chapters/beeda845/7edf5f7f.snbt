@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"4166d202"
+	],
+	tasks: [{
+		uid: "eaec227c",
+		type: "gamestage",
+		title: "Research Basic Electronics",
+		icon: "researchtable:table",
+		stage: "Basic Electronics"
+	}]
+}

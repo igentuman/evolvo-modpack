@@ -1,0 +1,16 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	shape: "square",
+	dependencies: [
+		"fe8df14b"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ca80fe13",
+		type: "item",
+		items: [{
+			item: "ncsteamadditions:steam_turbine"
+		}]
+	}]
+}

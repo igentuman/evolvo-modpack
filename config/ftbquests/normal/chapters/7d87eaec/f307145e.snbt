@@ -1,0 +1,15 @@
+{
+	x: -9.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "9d092a63",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "39577057",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "End"
+	}]
+}

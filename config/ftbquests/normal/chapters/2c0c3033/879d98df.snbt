@@ -1,0 +1,11 @@
+{
+	x: 0.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "b9a3d327",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:assembler"
+		}]
+	}]
+}

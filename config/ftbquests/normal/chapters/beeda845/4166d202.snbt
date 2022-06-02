@@ -1,0 +1,24 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"92c339c7",
+		"4012c6be",
+		"9fc1273c",
+		"ed59e15e"
+	],
+	tasks: [{
+		uid: "c615644f",
+		type: "item",
+		items: [{
+			item: "ncsteamadditions:steam_transformer"
+		}]
+	},
+	{
+		uid: "ca9e5025",
+		type: "item",
+		items: [{
+			item: "ncsteamadditions:steam_fluid_transformer"
+		}]
+	}]
+}

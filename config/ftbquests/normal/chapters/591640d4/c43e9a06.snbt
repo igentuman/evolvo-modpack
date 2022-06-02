@@ -1,0 +1,13 @@
+{
+	icon: "ic2:crafting 1 1",
+	x: -11.0d,
+	y: -12.0d,
+	dependencies: [
+		"165b6988"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "62fc4766",
+		type: "checkmark"
+	}]
+}

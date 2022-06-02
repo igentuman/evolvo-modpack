@@ -1,0 +1,16 @@
+{
+	x: -7.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "377427b3",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9d9d0303",
+		type: "gamestage",
+		auto: "enabled",
+		stage: "Kill Ender Dragon"
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "e00e3fda",
+		type: "item",
+		items: [{
+			item: "bfr:reactor"
+		}]
+	},
+	{
+		uid: "5af69849",
+		type: "item",
+		items: [{
+			item: "bfr:reactor 1 1"
+		}]
+	},
+	{
+		uid: "c2d96806",
+		type: "item",
+		items: [{
+			item: "bfr:reactorglass"
+		}]
+	},
+	{
+		uid: "49c0dc30",
+		type: "item",
+		items: [{
+			item: "bfr:reactor 1 2"
+		}]
+	},
+	{
+		uid: "44828813",
+		type: "item",
+		items: [{
+			item: "bfr:reactor 1 3"
+		}]
+	}]
+}

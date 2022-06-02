@@ -1,0 +1,11 @@
+{
+	x: -2.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "70f27497",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 2"
+		}]
+	}]
+}

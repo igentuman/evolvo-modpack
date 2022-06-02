@@ -1,0 +1,26 @@
+{
+	icon: "ironchest:iron_chest",
+	x: -3.5d,
+	y: -6.5d,
+	shape: "gear",
+	dependencies: [
+		"6ae34e8e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a35e6cff",
+		type: "item",
+		items: [{
+			item: "ironchest:wood_iron_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "80bf6d94",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}]
+	}]
+}

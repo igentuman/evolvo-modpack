@@ -2,26 +2,27 @@
 	"dependencies": "thermalfoundation",
 	"populate": {
 		
-		"deadbush_nc": {
+		"bunker": {
 			"enabled": "true",
 			"distribution": "uniform",
-			"generator": {
-				"block": 
-				{
-					"name": "minecraft:deadbush"
-				},
-				"material": [
-					"nuclearcraft:wasteland_earth",
-					"minecraft:sand"
-				],
-				"cluster-size": 2
-			},
-			"chunk-chance": 10,
+			"chunk-chance": 100,
 			"cluster-count": 1,
-			"min-height": 60,
-			"max-height": 120,
+			"min-height": 50,
+			"max-height": 60,
 			"retrogen": "false",
-			"type":"surface",
+			"generator": {
+				"type": "structure",
+				"structure": 			[
+					"structures/wasteland_bunker_1.nbt",
+					"structures/wasteland_bunker_2.nbt",
+					"structures/wasteland_bunker_3.nbt"
+				]
+			},
+			"material": [
+				"nuclearcraft:wasteland_earth",
+				"minecraft:sand",
+				"minecraft:stone"
+			],
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
@@ -29,8 +30,7 @@
 						"type": "id",
 						"entry": [
 							"nuclearcraft:wasteland",
-							"nuclearcraft:nuclear_wasteland",
-							"srparasites:biome_parasite"
+							"nuclearcraft:nuclear_wasteland"
 						]
 					}
 				]
@@ -43,7 +43,46 @@
 				]
 			}
 		},
-		
+		"tree": {
+			"enabled": "true",
+			"distribution": "surface",
+			"chunk-chance": 100,
+			"cluster-count": 1,
+			"min-height": 50,
+			"max-height": 90,
+			"retrogen": "false",
+			"generator": {
+				"type": "structure",
+				"structure": 			[
+					"structures/wasteland_tree_1.nbt",
+					"structures/wasteland_tree_2.nbt"
+				]
+			},
+			"material": [
+				"nuclearcraft:wasteland_earth",
+				"minecraft:sand",
+				"minecraft:stone"
+			],
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"nuclearcraft:wasteland",
+							"nuclearcraft:nuclear_wasteland"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					4598,
+					0
+				]
+			}
+		}
 		
 	}
 }

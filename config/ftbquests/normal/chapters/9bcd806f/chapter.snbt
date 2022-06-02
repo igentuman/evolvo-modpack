@@ -1,0 +1,7 @@
+{
+	title: "Space Travel",
+	icon: "galacticraftplanets:rocket_t3 1 4",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	shape: "gear",
+	dependencies: [
+		"32f70358"
+	],
+	optional: true,
+	tasks: [{
+		uid: "741f1e3d",
+		type: "fluid",
+		fluid: "low_pressure_steam",
+		amount: 10000
+	}]
+}

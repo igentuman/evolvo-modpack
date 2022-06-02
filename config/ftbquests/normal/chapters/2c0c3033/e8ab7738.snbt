@@ -1,0 +1,11 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "2695202c",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 8"
+		}]
+	}]
+}

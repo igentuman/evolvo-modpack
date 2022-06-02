@@ -1,0 +1,11 @@
+{
+	x: 2.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "91d1d6de",
+		type: "gamestage",
+		title: "Research Turbines",
+		icon: "researchtable:table",
+		stage: "Turbines"
+	}]
+}

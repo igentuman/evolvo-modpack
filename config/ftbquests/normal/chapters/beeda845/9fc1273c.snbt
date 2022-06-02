@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	dependencies: [
+		"32f70358"
+	],
+	tasks: [{
+		uid: "38c0fed4",
+		type: "item",
+		items: [{
+			item: "ncsteamadditions:steam_crusher"
+		}]
+	}]
+}

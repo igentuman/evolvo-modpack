@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: -2.5d,
+	shape: "gear",
+	dependencies: [
+		"63a42702"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0be95f52",
+		type: "item",
+		items: [{
+			item: "ftbquests:screen"
+		}]
+	},
+	{
+		uid: "32a35a20",
+		type: "item",
+		items: [{
+			item: "ftbquests:progress_detector"
+		}]
+	},
+	{
+		uid: "73b8b4e6",
+		type: "item",
+		items: [{
+			item: "ftbquests:progress_screen"
+		}]
+	}]
+}

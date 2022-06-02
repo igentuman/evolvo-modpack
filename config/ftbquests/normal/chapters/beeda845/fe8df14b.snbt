@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"8b29cc38"
+	],
+	tasks: [{
+		uid: "dc2a312d",
+		type: "gamestage",
+		title: "Research Turbines",
+		icon: "researchtable:table",
+		stage: "Turbines"
+	}]
+}

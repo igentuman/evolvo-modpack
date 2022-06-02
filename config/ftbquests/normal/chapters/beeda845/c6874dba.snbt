@@ -1,0 +1,13 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	shape: "hexagon",
+	size: 1.5d,
+	tasks: [{
+		uid: "8c578b61",
+		type: "item",
+		items: [{
+			item: "ncsteamadditions:steam_boiler"
+		}]
+	}]
+}

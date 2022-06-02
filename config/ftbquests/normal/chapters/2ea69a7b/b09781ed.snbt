@@ -12,5 +12,11 @@
 		title: "Research Basic Ores",
 		icon: "researchtable:table",
 		stage: "Basic Ores"
+	}],
+	rewards: [{
+		uid: "3fc8d5bf",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "Advanced Electroincs"
 	}]
 }

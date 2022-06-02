@@ -1,0 +1,19 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "steam",
+			Amount: 1000
+		}
+	},
+	x: -14.0d,
+	y: -12.0d,
+	dependencies: [
+		"91f0311a"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "95063275",
+		type: "checkmark"
+	}]
+}
