@@ -11203,8 +11203,6 @@ appliedenergistics2:facade:0, Cable Facade - Orange Wool (Legacy Carpet)
 appliedenergistics2:facade:0, Cable Facade - Orange Wool (Llama Carpet)
 appliedenergistics2:facade:0, Cable Facade - Wool (Legacy Carpet)
 appliedenergistics2:facade:0, Cable Facade - Wool (Llama Carpet)
-appliedenergistics2:facade:0, Cable Facade - Solid Compact Machine Wall
-appliedenergistics2:facade:0, Cable Facade - Compact Machine Wall
 appliedenergistics2:facade:0, Cable Facade - Electrical Steel Block
 appliedenergistics2:facade:0, Cable Facade - Infinity Dust Block
 appliedenergistics2:facade:0, Cable Facade - Compressed Infinity Dust Block
@@ -11362,6 +11360,8 @@ appliedenergistics2:facade:0, Cable Facade - Light Engineering Block
 appliedenergistics2:facade:0, Cable Facade - Heavy Engineering Block
 appliedenergistics2:facade:0, Cable Facade - Generator Block
 appliedenergistics2:facade:0, Cable Facade - Radiator Block
+appliedenergistics2:facade:0, Cable Facade - Solid Compact Machine Wall
+appliedenergistics2:facade:0, Cable Facade - Compact Machine Wall
 appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
 appliedenergistics2:facade:0, Cable Facade - Block of Luminessence
 appliedenergistics2:facade:0, Cable Facade - Block of Nether Stars
@@ -12143,20 +12143,6 @@ chisel:chisel_iron, Chisel
 chisel:chisel_diamond, Diamond Chisel
 chisel:chisel_hitech, iChisel
 chisel:offsettool, Ender Offset Wand
-compactmachines3:tunnel, Tunnel
-compactmachines3:redstonetunnel, Redstone Tunnel
-compactmachines3:wall, Solid Compact Machine Wall
-compactmachines3:wallbreakable, Compact Machine Wall
-compactmachines3:machine:0, Tiny Compact Machine
-compactmachines3:machine:1, Small Compact Machine
-compactmachines3:machine:2, Normal Compact Machine
-compactmachines3:machine:3, Large Compact Machine
-compactmachines3:machine:4, Giant Compact Machine
-compactmachines3:machine:5, Maximum Compact Machine
-compactmachines3:fieldprojector, Miniaturization Field Projector
-compactmachines3:psd, Personal Shrinking Device
-compactmachines3:tunneltool, Tunnel
-compactmachines3:redstonetunneltool, Redstone Tunnel
 enderio:item_enderface, Enderface
 enderio:item_conduit_facade:0, Conduit Facade
 enderio:item_conduit_facade:1, Hardened Conduit Facade
@@ -13502,34 +13488,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Arrow Head Pattern
 tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Hand Guard Pattern
 tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Binding Pattern
 tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Tool Rod Pattern
 tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
 tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Cross Guard Pattern
 tconstruct:shard:0, Electrical Shard
 tconstruct:sharpening_kit:0, Electrical Sharpening Kit
 tconstruct:pick_head:0, Electrical Pickaxe Head
@@ -13636,64 +13622,64 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Bowstring Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Arrow Head Cast
 tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Hand Guard Cast
 tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Binding Cast
 tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Tool Rod Cast
 tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Large Sword Blade Cast
 tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Cross Guard Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
 tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
 tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
 tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
 tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
 tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -14091,6 +14077,20 @@ immersiveengineering:steel_armor_feet, Steel Boots
 immersiveengineering:steel_armor_legs, Steel Leggings
 immersiveengineering:steel_armor_chest, Steel Chestplate
 immersiveengineering:steel_armor_head, Steel Helmet
+compactmachines3:tunnel, Tunnel
+compactmachines3:redstonetunnel, Redstone Tunnel
+compactmachines3:wall, Solid Compact Machine Wall
+compactmachines3:wallbreakable, Compact Machine Wall
+compactmachines3:machine:0, Tiny Compact Machine
+compactmachines3:machine:1, Small Compact Machine
+compactmachines3:machine:2, Normal Compact Machine
+compactmachines3:machine:3, Large Compact Machine
+compactmachines3:machine:4, Giant Compact Machine
+compactmachines3:machine:5, Maximum Compact Machine
+compactmachines3:fieldprojector, Miniaturization Field Projector
+compactmachines3:psd, Personal Shrinking Device
+compactmachines3:tunneltool, Tunnel
+compactmachines3:redstonetunneltool, Redstone Tunnel
 coroutil:repairing_block, Repairing Block
 coroutil:item_repairing_gel, Repairing Gel
 extendedcrafting:storage:0, Block of Black Iron
@@ -15259,6 +15259,9 @@ srparasites:gore:9, Primitive Remains
 srparasites:gore:10, Adapted Remains
 srparasites:gore:11, Pure Remains
 srparasites:canisteractive, Parasitic Cyst (Active)
+tenshilib:ignore, Structure Ignore
+tenshilib:structure_piece, Structure Piece
+tenshilib:breakable_barrier, tile.tenshilib:breakable_barrier.name
 researchtable:table, Research Table
 base:wrench, Wrench
 betterbuilderswands:wandstone, Stone Wand
@@ -15271,6 +15274,7 @@ theoneprobe:probenote, The One Probe Read Me
 theoneprobe:diamond_helmet_probe:0, Diamond Helmet with Probe
 theoneprobe:gold_helmet_probe:0, Gold Helmet with Probe
 theoneprobe:iron_helmet_probe:0, Iron Helmet with Probe
+blockbooster:booster, Booster
 contenttweaker:green_pack, Green Science Pack
 contenttweaker:red_pack, Red Science Pack
 contenttweaker:blue_pack, Blue Science Pack
